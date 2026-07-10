@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wordlearner"
+version = "0.0.1"
+dependencies = []
+requires-python = ">=3.8"
+authors = [
+	{name = "Sumeet Jangid", email = "sumeetj106@gmail.com"}
+]
+description = "A TUI word learner with fun games"

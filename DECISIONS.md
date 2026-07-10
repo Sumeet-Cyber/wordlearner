@@ -1,0 +1,2 @@
+### Why choose hatchling over setuptools?
+Because this is the first time I am building a python project with the intent to publish/share it online. I wanted to see how real world packages are built. And as I am just starting out, I wanted something easy to work with. Not everybody will agree with this, but I just wanted to keep the initial friction less. I do plan to get familiar with setuptools, as it is the one which legacy python packages use.
