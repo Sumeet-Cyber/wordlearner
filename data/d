@@ -1,0 +1,17 @@
+{
+	"deck1":
+	{
+		"name": "The Invisible Man",
+		"deck_id"  : 1,
+		"size": 1,
+		"filename": "deck1"
+	},
+
+	"deck2":
+	{
+		"name": "The Silent Patient",
+		"deck_id"  : 2,
+		"size": 0,
+		"filename": "deck2"
+	}
+}

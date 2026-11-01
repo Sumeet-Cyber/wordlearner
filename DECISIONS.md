@@ -12,3 +12,9 @@ Both decks and index start with 1 and not 0, just a design choice and I will lim
 
 ### Attributes of Word Class
 Okay, this can be confusing and I completely get it. Some Attributes of Word Class are private while others are protected. But the choice of which being private and others being protected doesn't seem to reflect any simple logic. Simply because I am inexperienced and for the time being, I would like to more forward. Once I get more familiar with which attributes need more attention and called the most, I will make necessary changes.
+
+### Changes in the JSON file structure
+Earlier I was going to use a single JSON file to store all the decks, all the words, meanings, examples, etc. But having a second thought over it, that seemed foolish. Why open all the decks, when all I want is to readh deck 'n'? I will only read those decks which need be read, mostly one at a time. So, after this change, the program is going to read a different json file, a file with info about total decks, their id, name, total number of words they have etc. This also lessens the probability of corrupting all of the data.
+
+### Where are Decks?
+Initially I thought of placing all the data related file in the data directory, but a reconsideration led to using a subdirectory 'decks' under 'data' for storing all the decks.

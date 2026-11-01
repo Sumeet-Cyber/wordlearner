@@ -1,0 +1,30 @@
+{
+	"name": "The Invisible Man",
+	"size": 1,
+	"deck_id": 1,
+	"filename": "deck1",
+	"words": 
+		[
+			{
+				"id": 1,
+				"word": "baffled",
+				"deck_id": 1,
+				"pos_tag": "adjective",
+				"meanings": [
+					"Not Understanding", 
+					"Discouraged by failure to accomplish a goal and uncertain how to proceed; -- used especially of feelings of defeat and discouragement."
+				],
+				"phonetics": "ba-fəld",
+				"examples": [
+					"The boys were baffled by the kid's intellignece",
+					"his explanation of a piano's key action will leave you more baffled than before"
+				],
+				"familiarity": 0,
+				"times_seen": 0,
+				"times_correct": 0,
+				"times_wrong": 0,
+				"last_reviewed": null,
+				"date_added": "datetime.datetime(2026, 7, 27, 18, 19, 13, 198505)"
+			}
+		]
+}
